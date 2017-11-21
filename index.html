@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="src/index.css">
+</head>
+<body>
+<div class="container">
+    <div class="board">
+        <div>
+            <div class="buttons color-green" id="green"></div>
+            <div class="buttons color-red" id="red"></div>
+        </div>
+
+        <div>
+            <div class="buttons color-yellow" id="yellow"></div>
+            <div class="buttons color-blue" id="blue"></div>
+        </div>
+
+        <div class="center">
+            <h1>Simon</h1>
+            <div class="controls">
+                <div class="result">
+                    <div id="level">--</div>
+                </div>
+                <div id="start"><button></button></div>
+                <div id="strict"><button></button></div>
+                <div class="titles">
+                    <span>Level</span>
+                    <span>Start</span>
+                    <span>Strict</span>
+                </div>
+                <div class="switcher">
+                    <span class="off">OFF</span>
+                    <div class="box">
+                        <div class="switch"></div>
+                    </div>
+                    <span class="on">ON</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="src/index.js"></script>
+</body>
+</html>
